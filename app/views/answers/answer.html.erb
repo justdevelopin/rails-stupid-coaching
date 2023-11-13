@@ -1,0 +1,12 @@
+<div class="alert alert-warning">
+  <h3>You:</h3>
+  <p><%= @question %></p>
+</div>
+
+<div class="alert alert-warning">
+  <h3>Coach's answer:</h3>
+  <p><%= @answer %></p>
+</div>
+
+
+<%= link_to "Ask another question", "/ask", class: "btn btn-danger w-100" %>
